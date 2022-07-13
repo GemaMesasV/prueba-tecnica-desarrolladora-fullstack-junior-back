@@ -1,6 +1,6 @@
-## Prueba técnica para el proceso de selección: Desarrolladora fullstack junior Card-Dynamics
+## Technical test for the selection process: Junior fullstack developer Card-Dynamics
 
-**Prueba Técnica Back-End**
+**Back-End Technical test**
 
 Create a social banking app. Where you can make transactions with people you are connected with.
 
@@ -45,3 +45,18 @@ environment variables to store secrets.
 ● Commit your code in the repo with the .env file.
 ● Make sure when you share the repo with us the database is not completely empty, it should have at least 5 users and 20 transactions so we don't have to start from scratch to verify things.
 ● Do not spend more than one day on this test, it's fine to not finish it. A few questions are going to come after the code review and that's the important part.
+
+
+**Boilerplate project**
+
+https://github.com/maitraysuthar/rest-api-nodejs-mongodb
+
+**How to run**
+
+● Clone or download this repository
+● Open a terminal in the root folder of the repository
+● Install the local dependencies by running in the terminal the command:
+-npm install
+
+●Start the project with the command:
+-npm run dev
