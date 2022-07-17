@@ -7,7 +7,6 @@ const auth = require("../middlewares/jwt");
 var mongoose = require("mongoose");
 mongoose.set("useFindAndModify", false);
 
-// Book Schema
 function RequestData(data) {
 	this.id = data._id;
 	this.from = data.from;

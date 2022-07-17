@@ -46,7 +46,6 @@ exports.register = [
 					else {
 						//hash input password
 						bcrypt.hash(req.body.password, 10, function (err, hash) {
-							// generate OTP for confirmation
 							let accountNumber = utility.randomNumber(10);
 							// Create User object with escaped and trimmed data
 							var user = new UserModel(
@@ -112,6 +111,7 @@ exports.login = [
 									lastName: user.lastName,
 									accountNumber: user.accountNumber,
 									connections: user.connections,
+									bankBalance: user.bankBalance
 								};
 								//Prepare JWT token for authentication
 								const jwtPayload = userData;
